@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/ust"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1" >
+
+        <Button
+            android:id="@+id/yenilebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/yenile"
+            />
+
+        <Button
+            android:id="@+id/btnbayrak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bayrak3"
+            />
+
+        <TextView
+            android:id="@+id/mayinsayi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnbayrak"
+            android:layout_alignBottom="@+id/btnbayrak"
+            android:layout_alignParentLeft="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/kaydet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/kaydet" />
+
+    </RelativeLayout>
+    <RelativeLayout 
+        android:id="@+id/ikinci"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        >
+
+        <TextView
+            android:id="@+id/mayin_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/sure_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mayin_tv"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            android:text="sure_tv" />
+
+        <TextView
+            android:id="@+id/puan_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sure_tv"
+            android:layout_centerHorizontal="true"
+            android:text="TextView" />
+
+    </RelativeLayout>
+    <ScrollView 
+        
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.8"
+        >
+    <LinearLayout
+        android:id="@+id/alt" 
+        
+        android:layout_width="match_parent"
+       android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        ></LinearLayout>
+
+   </ScrollView>
+</LinearLayout>

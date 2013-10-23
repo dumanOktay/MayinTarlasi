@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/yenioyunbtn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Yeni Oyun" />
+    </LinearLayout>
+    
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:orientation="vertical" >
+
+          <Button
+              android:id="@+id/kayitlioyun"
+              android:layout_width="156dp"
+              android:layout_height="wrap_content"
+              android:text="Kayıtlı Oyun" />
+
+      </LinearLayout>
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/oyundevam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oyuna Devam et" />
+
+    </LinearLayout>  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/istatik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Istatik" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/kendioyun"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:text="Oyun Oluştur" />
+
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:gravity="center"
+      android:orientation="vertical" >
+
+      <Button
+          android:id="@+id/secenek"
+          android:layout_width="156dp"
+          android:layout_height="wrap_content"
+          android:text="Secenekler" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:gravity="center"
+      android:orientation="vertical" >
+
+      <Button
+          android:id="@+id/yardim"
+          android:layout_width="156dp"
+          android:layout_height="wrap_content"
+          android:text="Yardım" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:gravity="center"
+      android:orientation="vertical" >
+
+      <Button
+          android:id="@+id/cikisbuton"
+          android:layout_width="152dp"
+          android:layout_height="wrap_content"
+          android:text="Çıkış" />
+  </LinearLayout>
+
+</LinearLayout>

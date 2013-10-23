@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/y_ust"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1" >
+
+        <Button
+            android:id="@+id/y_yenilebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/yenile"
+            />
+
+        <Button
+            android:id="@+id/y_btnbayrak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bayrak3"
+            />
+
+        <TextView
+            android:id="@+id/y_mayinsayi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnbayrak"
+            android:layout_alignBottom="@+id/btnbayrak"
+            android:layout_alignParentLeft="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/y_kaydet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/kaydet"
+           />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/y_alt" 
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.9"
+        android:orientation="vertical"
+        android:gravity="center"
+        ></LinearLayout>
+
+   
+</LinearLayout>

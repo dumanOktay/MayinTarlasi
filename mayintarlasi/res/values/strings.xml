@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mayintarlasi</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ilk_ekran">IlkEkran</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_ilkekran">Ilkekran</string>
+    <string name="title_activity_zorluk">Zorluk</string>
+    <string name="title_activity_kayitli_oyun">KayitliOyun</string>
+    <string name="title_activity_kendioyun">Kendioyun</string>
+    <string name="title_activity_zorluk2">Zorluk2</string>
+    <string name="title_activity_oyundevam">Oyundevam</string>
+    <string name="title_activity_secenek">Secenek</string>
+    <string name="title_activity_cikis">Cikis</string>
+    <string name="title_activity_yardim">Yardim</string>
+    <string name="title_activity_puanlist">Puanlist</string>
+    <string name="title_activity_oyun__kaydet">Oyun_Kaydet</string>
+    <string name="title_activity_kullanicilar">Kullanicilar</string>
+    <string name="title_activity_yeni__kullanici">Yeni_Kullanici</string>
+
+</resources>

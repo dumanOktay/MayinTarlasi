@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mayintarlasi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mayintarlasi.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.Ilkekran"
+            android:label="@string/title_activity_ilkekran" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.mayintarlasi.Ikinciekran" >
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.Zorluk"
+            android:label="@string/title_activity_zorluk" >
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.KayitliOyun"
+            android:label="@string/title_activity_kayitli_oyun" >
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.Kendioyun"
+            android:label="@string/title_activity_kendioyun" >
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.Zorluk2"
+            android:label="@string/title_activity_zorluk2" >
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.Oyundevam"
+            android:label="@string/title_activity_oyundevam" >
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.Secenek"
+            android:label="@string/title_activity_secenek" >
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.SkoruKaydet"
+            android:label="@string/title_activity_cikis" >
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.Yardim"
+            android:label="@string/title_activity_yardim" >
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.Puanlist"
+            android:label="@string/title_activity_puanlist" >
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.Oyun_Kaydet"
+            android:label="@string/title_activity_oyun__kaydet" >
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.Kullanicilar"
+            android:label="@string/title_activity_kullanicilar" >
+        </activity>
+        <activity
+            android:name="com.example.mayintarlasi.Yeni_Kullanici"
+            android:label="@string/title_activity_yeni__kullanici" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Yardim" >
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:text="Mayın Tarlası oyunu kutucuklardan oluşan bir düzenden oluşur.Oyunun amacı  mayınları bulmaktır.Bazı kutucukların içinde saklı bulunan mayınlar vardır.Kutucukları açarken mayınları açmamak gerekir.İçerisinde mayın bulunmayan kutucuk açıldığında üzerinde etrafındaki komşu kutucuklarda kaç tane mayın olduğunu gösteren rakamlar belirir.İçersinde mayın varolduğunu düşündüğünüz kutulara bayrak koyabilirsiniz.Hedef mayınları açmamaktır." >
+
+        <requestFocus />
+    </MultiAutoCompleteTextView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="36dp"
+        android:layout_height="110dp"
+        android:src="@drawable/bayrak" />
+
+</LinearLayout>
